@@ -348,3 +348,5 @@ export function backend(): KernelBackend {
 export function setPlatform(platformName: string, platform: Platform) {
   ENV.setPlatform(platformName, platform);
 }
+
+export function analysis() {}
